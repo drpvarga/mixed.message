@@ -43,6 +43,7 @@ function generateRandomNumber(num) {
     // Add in more symbols to the array? like emojies or what not?
     const formatted = personalWisdom.join('\n')
     console.log(formatted)
+    document.getElementById('messageDisplay').innerHTML = personalWisdom;
   }
   
-  formatWisdom(personalWisdom);
+  //formatWisdom(personalWisdom);
